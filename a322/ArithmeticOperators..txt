@@ -1,3 +1,25 @@
+AIM:
+To write a Java program to perform arithmetic operations such as addition, subtraction, multiplication, division, and modulus using a menu-driven program.
+
+ALGORITHM:
+1.Start the program.
+2.Create a Scanner object to get input from the user.
+3.Read two integer values x and y.
+4.Display the menu of arithmetic operations.
+5.Read the user's choice.
+6.Use a switch statement to perform the selected operation:
+Choice 1 → Addition
+Choice 2 → Subtraction
+Choice 3 → Multiplication
+Choice 4 → Division
+Choice 5 → Modulus
+Choice 6 → Exit
+7.Display the result of the selected operation.
+8.Repeat the process until the user chooses Exit.
+9.Stop the program.
+
+
+PROGRAM:
 import java.util.Scanner;
 public class ArithmeticOperators
 {
@@ -49,3 +71,22 @@ System.exit(0);
 }
 }
 }
+
+OUTPUT:
+Enter the two numbers to perform operations
+Enter the first number : 20
+Enter the second number : 10
+
+Choose the operation you want to perform
+Choose 1 for ADDITION
+Choose 2 for SUBTRACTION
+Choose 3 for MULTIPLICATION
+Choose 4 for DIVISION
+Choose 5 for MODULUS
+Choose 6 for EXIT
+
+1
+Result : 30
+
+RESULT:
+Thus, the Java program successfully performs addition, subtraction, multiplication, division, and modulus operations using a menu-driven approach.
