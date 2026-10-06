@@ -1,3 +1,21 @@
+AIM:
+To write a Java program to arrange the elements of an array in ascending order.
+
+ALGORITHM:
+1.Start the program.
+2.Declare the variables n and temp.
+3.Create a Scanner object to get input from the user.
+4.Read the number of elements n.
+5.Create an integer array of size n.
+6.Read all the elements into the array.
+7.Compare each element with the remaining elements using nested for loops.
+8.If a[i] > a[j], swap the two elements using the variable temp.
+9.Repeat the comparison until all elements are arranged.
+10.Display the elements of the array in ascending order.
+11.Close the scanner.
+12.Stop the program.
+
+PROGRAM:
 import java.util.Scanner;
 public class AscendingOrder
 {
@@ -29,5 +47,18 @@ System.out.print(a[n-1]);
 s.close();
 }
 }
+
+OUTPUT:
+enter number of elements you want in array:5
+enter all the elements:
+50
+20
+40
+10
+30
+Ascending order:10,20,30,40,50\
+  
+RESULT:
+Thus, the Java program successfully arranges the given array elements in ascending order.
 
 
